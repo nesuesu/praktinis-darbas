@@ -1,0 +1,28 @@
+
+
+#about{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+
+img{
+    width: 80%;
+}
+
+.paraste{
+    margin-top: 50px;
+    text-align: left;
+  
+}
+
+
+.paraste h1{
+    font-size: 2rem;
+}
+
+.paraste p, a{
+    font-size: 1rem;
+}
+

@@ -1,0 +1,101 @@
+
+#tours{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+/* CARDS  */
+
+.korteles1{
+    display: flex;
+    flex-direction: column;
+}
+
+.kortele1{
+    /* width: 100%; */
+    font-size: 1rem;
+    margin: 25px;
+   
+}
+
+
+img{
+    width: 100%;
+}
+
+.border{
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.border h1{
+margin: 0px;
+padding: 20px;
+}
+
+
+.kortele1 h1{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.kaina{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+
+}
+
+.ikonele1{
+    /* font-size: 50px;  */
+    color: rgb(50, 50, 121);
+    font-style: normal;
+    display: table-cell;
+    
+}
+
+
+
+
+/* OVERLAY  */
+
+.container {
+    position: relative;
+    width: 100%;
+    /* max-width: 300px; */
+  }
+  
+.image {
+    /* display: block; */
+    width: 100%;
+    height: auto;
+  }
+  
+.data {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(99,92,255,0.5);
+    color: #f1f1f1;
+    width: 200px;
+
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+
+    transition: .5s ease;
+    opacity:0;
+  }
+
+  .container:hover .data {
+    opacity: 1;
+  }
+
+
+.kortele1:hover {
+    box-shadow: 1px 1px 5px;
+   
+}

@@ -1,0 +1,42 @@
+
+
+#subscriptions{
+    background-color: var(--color-main);
+    padding: 50px;
+    text-align: center;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+    margin: 0px 15px;
+    color: white;
+}
+
+
+input[type=email]{
+    background-color: white;
+    width:90%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  transition: width 0.5s ease-in-out;
+
+}
+
+input[type=email]:focus {
+    background-color: lightblue;
+    width: 100%;
+    }
+
+
+input[type="submit"] {
+    margin-left: -23%;
+    height: 30px;
+    width: 20%;
+    border: none;
+    padding: 0;
+
+}
+

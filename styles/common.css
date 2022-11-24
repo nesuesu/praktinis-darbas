@@ -1,0 +1,16 @@
+:root{
+    --color-main: rgb(99, 92, 255);
+}
+
+body{
+    margin: 0px;
+    background-color: var(--color-main);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}

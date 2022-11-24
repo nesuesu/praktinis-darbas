@@ -1,0 +1,19 @@
+
+
+#gallery{
+    background-color: rgb(204, 201, 201);
+    /* padding: 50px; */
+    text-align: center;
+
+    /* border: 1px solid black; */
+    
+}
+
+#gallery div{
+    background-color: var(--color-main);
+}
+
+#gallery h1{
+    margin: 0px;
+    padding: 50px 0px;
+}

@@ -1,0 +1,20 @@
+
+#hero{
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+button{
+    color: white;
+    height: 30px;
+    width: 100px;
+    background-color: var(--color-main);
+    border: unset;
+    border-radius: 3px;
+    /* border: 1px solid rgb(209, 208, 208); */
+    box-shadow: 1px 1px 5px rgb(58, 57, 57);
+    
+}
